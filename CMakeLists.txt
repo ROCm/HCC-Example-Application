@@ -17,10 +17,11 @@
 
 set( FOLDER_NAME C++Amp )
 set( SUBDIRECTORIES ArrayBandwidth
-HCFFT
-MD
-SPMV
-SyncVsAsyncArrayCopy )
+  ListDevices
+  HCFFT
+  MD
+  SPMV
+  SyncVsAsyncArrayCopy )
 
 ############################################################################
 
